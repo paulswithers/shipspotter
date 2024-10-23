@@ -1,0 +1,21 @@
+meta {
+  name: spotsByShip
+  type: http
+  seq: 11
+}
+
+get {
+  url: {{baseUrl}}/lists/%28luSpotsByShipUNID%29?dataSource={{scope}}&meta=false&key=00E76433F0B4F90E862588550071F72A
+  body: none
+  auth: bearer
+}
+
+params:query {
+  dataSource: {{scope}}
+  meta: false
+  key: 00E76433F0B4F90E862588550071F72A
+}
+
+auth:bearer {
+  token: {{token}}
+}

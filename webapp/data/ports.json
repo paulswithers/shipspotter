@@ -1,0 +1,1117 @@
+[
+    {
+        "Port": "Aalborg",
+        "Country": "Denmark",
+        "Abbreviation": "DK"
+    },
+    {
+        "Port": "Aberdeen",
+        "Country": "United Kingdom",
+        "Abbreviation": "GB"
+    },
+    {
+        "Port": "Alderney",
+        "Country": "Guernsey",
+        "Abbreviation": "GG"
+    },
+    {
+        "Port": "Alesund",
+        "Country": "Norway",
+        "Abbreviation": "NO"
+    },
+    {
+        "Port": "Algeciras",
+        "Country": "Spain",
+        "Abbreviation": "ES"
+    },
+    {
+        "Port": "Alvheim",
+        "Country": "Norway",
+        "Abbreviation": "NO"
+    },
+    {
+        "Port": "Ambarli",
+        "Country": "Turkey",
+        "Abbreviation": "TR"
+    },
+    {
+        "Port": "Amsterdam",
+        "Country": "Netherlands",
+        "Abbreviation": "NL"
+    },
+    {
+        "Port": "Antwerp",
+        "Country": "Belgium",
+        "Abbreviation": "BE"
+    },
+    {
+        "Port": "Aviles",
+        "Country": "Spain",
+        "Abbreviation": "ES"
+    },
+    {
+        "Port": "Baltimore",
+        "Country": "USA",
+        "Abbreviation": "US"
+    },
+    {
+        "Port": "Barcelona",
+        "Country": "Spain",
+        "Abbreviation": "ES"
+    },
+    {
+        "Port": "Baywood",
+        "Country": "USA",
+        "Abbreviation": "US"
+    },
+    {
+        "Port": "Beaumont",
+        "Country": "USA",
+        "Abbreviation": "US"
+    },
+    {
+        "Port": "Belfast",
+        "Country": "United Kingdom",
+        "Abbreviation": "GB"
+    },
+    {
+        "Port": "Bembridge",
+        "Country": "United Kingdom",
+        "Abbreviation": "GB"
+    },
+    {
+        "Port": "Bergen",
+        "Country": "Norway",
+        "Abbreviation": "NO"
+    },
+    {
+        "Port": "Bilbao",
+        "Country": "Spain",
+        "Abbreviation": "ES"
+    },
+    {
+        "Port": "Birsfelden",
+        "Country": "Switzerland",
+        "Abbreviation": "CH"
+    },
+    {
+        "Port": "Bordeaux",
+        "Country": "France",
+        "Abbreviation": "FR"
+    },
+    {
+        "Port": "Bremen",
+        "Country": "Germany",
+        "Abbreviation": "DE"
+    },
+    {
+        "Port": "Bremerhaven",
+        "Country": "Germany",
+        "Abbreviation": "DE"
+    },
+    {
+        "Port": "Brest",
+        "Country": "France",
+        "Abbreviation": "FR"
+    },
+    {
+        "Port": "Bridgetown",
+        "Country": "Barbados",
+        "Abbreviation": "BB"
+    },
+    {
+        "Port": "Brixham",
+        "Country": "United Kingdom",
+        "Abbreviation": "GB"
+    },
+    {
+        "Port": "Brjanslakur",
+        "Country": "Iceland",
+        "Abbreviation": "IS"
+    },
+    {
+        "Port": "Brunsbuettel",
+        "Country": "Germany",
+        "Abbreviation": "DE"
+    },
+    {
+        "Port": "Brunswick",
+        "Country": "USA",
+        "Abbreviation": "US"
+    },
+    {
+        "Port": "Bryher",
+        "Country": "United Kingdom",
+        "Abbreviation": "GB"
+    },
+    {
+        "Port": "Cadiz",
+        "Country": "Spain",
+        "Abbreviation": "ES"
+    },
+    {
+        "Port": "Calais",
+        "Country": "France",
+        "Abbreviation": "FR"
+    },
+    {
+        "Port": "Cartagena",
+        "Country": "Spain",
+        "Abbreviation": "ES"
+    },
+    {
+        "Port": "Ceuta",
+        "Country": "Spain",
+        "Abbreviation": "ES"
+    },
+    {
+        "Port": "Changtu Island",
+        "Country": "China",
+        "Abbreviation": "CN"
+    },
+    {
+        "Port": "Charleston",
+        "Country": "USA",
+        "Abbreviation": "US"
+    },
+    {
+        "Port": "Cherbourg",
+        "Country": "France",
+        "Abbreviation": "FR"
+    },
+    {
+        "Port": "Christchurch",
+        "Country": "United Kingdom",
+        "Abbreviation": "GB"
+    },
+    {
+        "Port": "Clydeport Greenock",
+        "Country": "United Kingdom",
+        "Abbreviation": "GB"
+    },
+    {
+        "Port": "Copenhagen",
+        "Country": "Denmark",
+        "Abbreviation": "DK"
+    },
+    {
+        "Port": "Cork",
+        "Country": "Ireland",
+        "Abbreviation": "IE"
+    },
+    {
+        "Port": "Corpus Christi",
+        "Country": "USA",
+        "Abbreviation": "US"
+    },
+    {
+        "Port": "Coruna",
+        "Country": "Spain",
+        "Abbreviation": "ES"
+    },
+    {
+        "Port": "Cowes",
+        "Country": "United Kingdom",
+        "Abbreviation": "GB"
+    },
+    {
+        "Port": "Cristobal",
+        "Country": "Panama",
+        "Abbreviation": "PA"
+    },
+    {
+        "Port": "Cuxhaven",
+        "Country": "Germany",
+        "Abbreviation": "DE"
+    },
+    {
+        "Port": "DA137",
+        "Country": "United Kingdom",
+        "Abbreviation": "GB"
+    },
+    {
+        "Port": "Dakar",
+        "Country": "Senegal",
+        "Abbreviation": "SN"
+    },
+    {
+        "Port": "Davisville",
+        "Country": "USA",
+        "Abbreviation": "US"
+    },
+    {
+        "Port": "Den Helder",
+        "Country": "Netherlands",
+        "Abbreviation": "NL"
+    },
+    {
+        "Port": "Dordrecht",
+        "Country": "Netherlands",
+        "Abbreviation": "NL"
+    },
+    {
+        "Port": "Dover",
+        "Country": "United Kingdom",
+        "Abbreviation": "GB"
+    },
+    {
+        "Port": "Dublin",
+        "Country": "Ireland",
+        "Abbreviation": "IE"
+    },
+    {
+        "Port": "Dundalk",
+        "Country": "USA",
+        "Abbreviation": "US"
+    },
+    {
+        "Port": "Dunkirk",
+        "Country": "France",
+        "Abbreviation": "FR"
+    },
+    {
+        "Port": "Durban",
+        "Country": "South Africa",
+        "Abbreviation": "ZA"
+    },
+    {
+        "Port": "Durres",
+        "Country": "Albania",
+        "Abbreviation": "AL"
+    },
+    {
+        "Port": "Eidfjord",
+        "Country": "Norway",
+        "Abbreviation": "NO"
+    },
+    {
+        "Port": "Emden",
+        "Country": "Germany",
+        "Abbreviation": "DE"
+    },
+    {
+        "Port": "Ensted",
+        "Country": "Denmark",
+        "Abbreviation": "DK"
+    },
+    {
+        "Port": "Es Sidar Anchorage",
+        "Country": "Libya",
+        "Abbreviation": "LY"
+    },
+    {
+        "Port": "Esbjerg",
+        "Country": "Germany",
+        "Abbreviation": "DE"
+    },
+    {
+        "Port": "Falmouth",
+        "Country": "United Kingdom",
+        "Abbreviation": "GB"
+    },
+    {
+        "Port": "Farsund",
+        "Country": "Norway",
+        "Abbreviation": "NO"
+    },
+    {
+        "Port": "Fawley",
+        "Country": "United Kingdom",
+        "Abbreviation": "GB"
+    },
+    {
+        "Port": "Fenit",
+        "Country": "Ireland",
+        "Abbreviation": "IE"
+    },
+    {
+        "Port": "Fishbourne",
+        "Country": "United Kingdom",
+        "Abbreviation": "GB"
+    },
+    {
+        "Port": "Flotta",
+        "Country": "United Kingdom",
+        "Abbreviation": "GB"
+    },
+    {
+        "Port": "Ford Otosan",
+        "Country": "Turkey",
+        "Abbreviation": "TR"
+    },
+    {
+        "Port": "Fos sur Mer",
+        "Country": "France",
+        "Abbreviation": "FR"
+    },
+    {
+        "Port": "Fowey",
+        "Country": "United Kingdom",
+        "Abbreviation": "GB"
+    },
+    {
+        "Port": "Freeport",
+        "Country": "USA",
+        "Abbreviation": "US"
+    },
+    {
+        "Port": "Freshwater",
+        "Country": "United Kingdom",
+        "Abbreviation": "GB"
+    },
+    {
+        "Port": "Funchal",
+        "Country": "Portugal",
+        "Abbreviation": "PT"
+    },
+    {
+        "Port": "Galveston",
+        "Country": "USA",
+        "Abbreviation": "US"
+    },
+    {
+        "Port": "Garrucha",
+        "Country": "Spain",
+        "Abbreviation": "ES"
+    },
+    {
+        "Port": "Gdansk",
+        "Country": "Poland",
+        "Abbreviation": "PL"
+    },
+    {
+        "Port": "Gibraltar",
+        "Country": "Gibraltar",
+        "Abbreviation": "GI"
+    },
+    {
+        "Port": "Gioia Tauro",
+        "Country": "Italy",
+        "Abbreviation": "IT"
+    },
+    {
+        "Port": "Gosport",
+        "Country": "United Kingdom",
+        "Abbreviation": "GB"
+    },
+    {
+        "Port": "Goteborg",
+        "Country": "Sweden",
+        "Abbreviation": "SE"
+    },
+    {
+        "Port": "Guernsey",
+        "Country": "Guernsey",
+        "Abbreviation": "GG"
+    },
+    {
+        "Port": "Halifax",
+        "Country": "Canada",
+        "Abbreviation": "CA"
+    },
+    {
+        "Port": "Hamble",
+        "Country": "United Kingdom",
+        "Abbreviation": "GB"
+    },
+    {
+        "Port": "Hamble Point",
+        "Country": "United Kingdom",
+        "Abbreviation": "GB"
+    },
+    {
+        "Port": "Hamburg",
+        "Country": "Germany",
+        "Abbreviation": "DE"
+    },
+    {
+        "Port": "Harwich",
+        "Country": "United Kingdom",
+        "Abbreviation": "GB"
+    },
+    {
+        "Port": "Haugesund",
+        "Country": "Norway",
+        "Abbreviation": "NO"
+    },
+    {
+        "Port": "Hound Point Terminal",
+        "Country": "United Kingdom",
+        "Abbreviation": "GB"
+    },
+    {
+        "Port": "Houston",
+        "Country": "USA",
+        "Abbreviation": "US"
+    },
+    {
+        "Port": "Hythe Village",
+        "Country": "United Kingdom",
+        "Abbreviation": "GB"
+    },
+    {
+        "Port": "Ijmuiden",
+        "Country": "Netherlands",
+        "Abbreviation": "NL"
+    },
+    {
+        "Port": "Immingham",
+        "Country": "United Kingdom",
+        "Abbreviation": "GB"
+    },
+    {
+        "Port": "Ingleside",
+        "Country": "USA",
+        "Abbreviation": "US"
+    },
+    {
+        "Port": "Invergordon",
+        "Country": "United Kingdom",
+        "Abbreviation": "GB"
+    },
+    {
+        "Port": "Isle of Grain",
+        "Country": "United Kingdom",
+        "Abbreviation": "GB"
+    },
+    {
+        "Port": "Jorf Lasfar",
+        "Country": "Morocco",
+        "Abbreviation": "MA"
+    },
+    {
+        "Port": "Jorunn Knutsen",
+        "Country": "Norway",
+        "Abbreviation": "NO"
+    },
+    {
+        "Port": "Kiel",
+        "Country": "Germany",
+        "Abbreviation": "DE"
+    },
+    {
+        "Port": "King Abdullah",
+        "Country": "Saudi Arabia",
+        "Abbreviation": "SA"
+    },
+    {
+        "Port": "Kristiansund",
+        "Country": "Norway",
+        "Abbreviation": "NO"
+    },
+    {
+        "Port": "La Pallice",
+        "Country": "France",
+        "Abbreviation": "FR"
+    },
+    {
+        "Port": "La Rochelle",
+        "Country": "France",
+        "Abbreviation": "FR"
+    },
+    {
+        "Port": "Las Palmas",
+        "Country": "Spain",
+        "Abbreviation": "ES"
+    },
+    {
+        "Port": "Le Havre",
+        "Country": "France",
+        "Abbreviation": "FR"
+    },
+    {
+        "Port": "Le Verdon",
+        "Country": "France",
+        "Abbreviation": "FR"
+    },
+    {
+        "Port": "Leixoes",
+        "Country": "Portugal",
+        "Abbreviation": "PT"
+    },
+    {
+        "Port": "Lerwick",
+        "Country": "United Kingdom",
+        "Abbreviation": "GB"
+    },
+    {
+        "Port": "Limassol",
+        "Country": "Cyprus",
+        "Abbreviation": "CY"
+    },
+    {
+        "Port": "Lisboa",
+        "Country": "Portugal",
+        "Abbreviation": "PT"
+    },
+    {
+        "Port": "Liverpool",
+        "Country": "United Kingdom",
+        "Abbreviation": "GB"
+    },
+    {
+        "Port": "Liza Destiny",
+        "Country": "Bahamas",
+        "Abbreviation": "BS"
+    },
+    {
+        "Port": "Lome",
+        "Country": "Togo",
+        "Abbreviation": "TG"
+    },
+    {
+        "Port": "Lymington",
+        "Country": "United Kingdom",
+        "Abbreviation": "GB"
+    },
+    {
+        "Port": "Marsa Brega",
+        "Country": "Libya",
+        "Abbreviation": "LY"
+    },
+    {
+        "Port": "Mercury",
+        "Country": "United Kingdom",
+        "Abbreviation": "GB"
+    },
+    {
+        "Port": "Milford Haven",
+        "Country": "United Kingdom",
+        "Abbreviation": "GB"
+    },
+    {
+        "Port": "Mina Al Ahmadi",
+        "Country": "Kuwait",
+        "Abbreviation": "KW"
+    },
+    {
+        "Port": "Moerdijk",
+        "Country": "Netherlands",
+        "Abbreviation": "NL"
+    },
+    {
+        "Port": "Mongstad",
+        "Country": "Norway",
+        "Abbreviation": "NO"
+    },
+    {
+        "Port": "Montoir",
+        "Country": "France",
+        "Abbreviation": "FR"
+    },
+    {
+        "Port": "Montreal",
+        "Country": "Canada",
+        "Abbreviation": "CA"
+    },
+    {
+        "Port": "Mundra",
+        "Country": "India",
+        "Abbreviation": "ID"
+    },
+    {
+        "Port": "Murmansk Anchorage",
+        "Country": "Russia",
+        "Abbreviation": "RS"
+    },
+    {
+        "Port": "Nab Anchorage",
+        "Country": "United Kingdom",
+        "Abbreviation": "GB"
+    },
+    {
+        "Port": "Nador",
+        "Country": "Morocco",
+        "Abbreviation": "MA"
+    },
+    {
+        "Port": "New Orleans",
+        "Country": "USA",
+        "Abbreviation": "US"
+    },
+    {
+        "Port": "New York",
+        "Country": "USA",
+        "Abbreviation": "US"
+    },
+    {
+        "Port": "Newhaven",
+        "Country": "United Kingdom",
+        "Abbreviation": "GB"
+    },
+    {
+        "Port": "Newport",
+        "Country": "United Kingdom",
+        "Abbreviation": "GB"
+    },
+    {
+        "Port": "Newport (US)",
+        "Country": "USA",
+        "Abbreviation": "US"
+    },
+    {
+        "Port": "Nieuwegein",
+        "Country": "Netherlands",
+        "Abbreviation": "NL"
+    },
+    {
+        "Port": "Nordfjordeid",
+        "Country": "Norway",
+        "Abbreviation": "NO"
+    },
+    {
+        "Port": "Norfolk",
+        "Country": "USA",
+        "Abbreviation": "US"
+    },
+    {
+        "Port": "Nouakchott",
+        "Country": "Mauritania",
+        "Abbreviation": "MR"
+    },
+    {
+        "Port": "Novorossiysk",
+        "Country": "Russia",
+        "Abbreviation": "RS"
+    },
+    {
+        "Port": "Nynashamn",
+        "Country": "Sweden",
+        "Abbreviation": "SE"
+    },
+    {
+        "Port": "Olden",
+        "Country": "Norway",
+        "Abbreviation": "NO"
+    },
+    {
+        "Port": "Oslo",
+        "Country": "Norway",
+        "Abbreviation": "NO"
+    },
+    {
+        "Port": "Ouistreham",
+        "Country": "France",
+        "Abbreviation": "FR"
+    },
+    {
+        "Port": "Palma de Mallorca",
+        "Country": "Spain",
+        "Abbreviation": "ES"
+    },
+    {
+        "Port": "Pasajes",
+        "Country": "Spain",
+        "Abbreviation": "ES"
+    },
+    {
+        "Port": "Philadelphia",
+        "Country": "USA",
+        "Abbreviation": "US"
+    },
+    {
+        "Port": "Plymouth",
+        "Country": "United Kingdom",
+        "Abbreviation": "GB"
+    },
+    {
+        "Port": "Ponta Delgada",
+        "Country": "Portugal",
+        "Abbreviation": "PT"
+    },
+    {
+        "Port": "Poole",
+        "Country": "United Kingdom",
+        "Abbreviation": "GB"
+    },
+    {
+        "Port": "Port Allen",
+        "Country": "USA",
+        "Abbreviation": "US"
+    },
+    {
+        "Port": "Port Arthur",
+        "Country": "USA",
+        "Abbreviation": "US"
+    },
+    {
+        "Port": "Port Elizabeth",
+        "Country": "South Africa",
+        "Abbreviation": "ZA"
+    },
+    {
+        "Port": "Port Jerome",
+        "Country": "France",
+        "Abbreviation": "FR"
+    },
+    {
+        "Port": "Port Said",
+        "Country": "Egypt",
+        "Abbreviation": "EG"
+    },
+    {
+        "Port": "Port Talbot",
+        "Country": "United Kingdom",
+        "Abbreviation": "GB"
+    },
+    {
+        "Port": "Portbury",
+        "Country": "United Kingdom",
+        "Abbreviation": "GB"
+    },
+    {
+        "Port": "Portland",
+        "Country": "United Kingdom",
+        "Abbreviation": "GB"
+    },
+    {
+        "Port": "Portsmouth",
+        "Country": "United Kingdom",
+        "Abbreviation": "GB"
+    },
+    {
+        "Port": "Portsmouth Anchorage",
+        "Country": "United Kingdom",
+        "Abbreviation": "GB"
+    },
+    {
+        "Port": "Porvoo",
+        "Country": "Finland",
+        "Abbreviation": "FI"
+    },
+    {
+        "Port": "Purfleet",
+        "Country": "United Kingdom",
+        "Abbreviation": "GB"
+    },
+    {
+        "Port": "Rades",
+        "Country": "Tunisia",
+        "Abbreviation": "TN"
+    },
+    {
+        "Port": "Reykjavik",
+        "Country": "Iceland",
+        "Abbreviation": "IS"
+    },
+    {
+        "Port": "Ringaskiddy",
+        "Country": "Ireland",
+        "Abbreviation": "IE"
+    },
+    {
+        "Port": "Rosyth",
+        "Country": "United Kingdom",
+        "Abbreviation": "GB"
+    },
+    {
+        "Port": "Rotterdam",
+        "Country": "Netherlands",
+        "Abbreviation": "NL"
+    },
+    {
+        "Port": "Rotterdam Botlek",
+        "Country": "Netherlands",
+        "Abbreviation": "NL"
+    },
+    {
+        "Port": "Rotterdam Maasvlakte",
+        "Country": "Netherlands",
+        "Abbreviation": "NL"
+    },
+    {
+        "Port": "Rotterdam Vondeling",
+        "Country": "Netherlands",
+        "Abbreviation": "NL"
+    },
+    {
+        "Port": "Rotterdam Waalhaven",
+        "Country": "Netherlands",
+        "Abbreviation": "NL"
+    },
+    {
+        "Port": "Rouen",
+        "Country": "France",
+        "Abbreviation": "FR"
+    },
+    {
+        "Port": "Ryde",
+        "Country": "United Kingdom",
+        "Abbreviation": "GB"
+    },
+    {
+        "Port": "Saltmead",
+        "Country": "United Kingdom",
+        "Abbreviation": "GB"
+    },
+    {
+        "Port": "Sandown",
+        "Country": "United Kingdom",
+        "Abbreviation": "GB"
+    },
+    {
+        "Port": "Santa Marta",
+        "Country": "Colombia",
+        "Abbreviation": "CO"
+    },
+    {
+        "Port": "Santander",
+        "Country": "Spain",
+        "Abbreviation": "ES"
+    },
+    {
+        "Port": "Savannah",
+        "Country": "USA",
+        "Abbreviation": "US"
+    },
+    {
+        "Port": "Savona",
+        "Country": "Italy",
+        "Abbreviation": "IT"
+    },
+    {
+        "Port": "Schiedam",
+        "Country": "Netherlands",
+        "Abbreviation": "NL"
+    },
+    {
+        "Port": "Sete",
+        "Country": "France",
+        "Abbreviation": "FR"
+    },
+    {
+        "Port": "Setubal",
+        "Country": "Portugal",
+        "Abbreviation": "PT"
+    },
+    {
+        "Port": "Shanghai",
+        "Country": "China",
+        "Abbreviation": "CN"
+    },
+    {
+        "Port": "Sharpness",
+        "Country": "United Kingdom",
+        "Abbreviation": "GB"
+    },
+    {
+        "Port": "Shenzhen",
+        "Country": "China",
+        "Abbreviation": "CN"
+    },
+    {
+        "Port": "Shoreham",
+        "Country": "United Kingdom",
+        "Abbreviation": "GB"
+    },
+    {
+        "Port": "Silvertown",
+        "Country": "United Kingdom",
+        "Abbreviation": "GB"
+    },
+    {
+        "Port": "Sines",
+        "Country": "Portugal",
+        "Abbreviation": "PT"
+    },
+    {
+        "Port": "Skagen",
+        "Country": "Denmark",
+        "Abbreviation": "DK"
+    },
+    {
+        "Port": "Skarv Oil Field",
+        "Country": "Norway",
+        "Abbreviation": "NO"
+    },
+    {
+        "Port": "Skjolden",
+        "Country": "Norway",
+        "Abbreviation": "NO"
+    },
+    {
+        "Port": "Slagen",
+        "Country": "Norway",
+        "Abbreviation": "NO"
+    },
+    {
+        "Port": "Solent",
+        "Country": "United Kingdom",
+        "Abbreviation": "GB"
+    },
+    {
+        "Port": "Southampton",
+        "Country": "United Kingdom",
+        "Abbreviation": "GB"
+    },
+    {
+        "Port": "St Helens Anchorage",
+        "Country": "United Kingdom",
+        "Abbreviation": "GB"
+    },
+    {
+        "Port": "St Helier",
+        "Country": "Jersey",
+        "Abbreviation": "JE"
+    },
+    {
+        "Port": "St Johns",
+        "Country": "Antigua Barbuda",
+        "Abbreviation": "AG"
+    },
+    {
+        "Port": "St Malo",
+        "Country": "France",
+        "Abbreviation": "FR"
+    },
+    {
+        "Port": "St Nazaire",
+        "Country": "France",
+        "Abbreviation": "FR"
+    },
+    {
+        "Port": "Stavanger",
+        "Country": "Norway",
+        "Abbreviation": "NO"
+    },
+    {
+        "Port": "Sture",
+        "Country": "Norway",
+        "Abbreviation": "NO"
+    },
+    {
+        "Port": "Suez Canal",
+        "Country": "Egypt",
+        "Abbreviation": "EG"
+    },
+    {
+        "Port": "Sulina",
+        "Country": "Romania",
+        "Abbreviation": "RO"
+    },
+    {
+        "Port": "Sullom Voe",
+        "Country": "United Kingdom",
+        "Abbreviation": "GB"
+    },
+    {
+        "Port": "Swinoujscie",
+        "Country": "Poland",
+        "Abbreviation": "PL"
+    },
+    {
+        "Port": "Szczecin",
+        "Country": "Poland",
+        "Abbreviation": "PL"
+    },
+    {
+        "Port": "Tanger Med",
+        "Country": "Morocco",
+        "Abbreviation": "MA"
+    },
+    {
+        "Port": "Tarbert",
+        "Country": "Ireland",
+        "Abbreviation": "IE"
+    },
+    {
+        "Port": "Tees",
+        "Country": "United Kingdom",
+        "Abbreviation": "GB"
+    },
+    {
+        "Port": "Tema",
+        "Country": "Ghana",
+        "Abbreviation": "GH"
+    },
+    {
+        "Port": "Tenerife",
+        "Country": "Spain",
+        "Abbreviation": "ES"
+    },
+    {
+        "Port": "Terneuzen",
+        "Country": "Netherlands",
+        "Abbreviation": "NL"
+    },
+    {
+        "Port": "Thames",
+        "Country": "United Kingdom",
+        "Abbreviation": "GB"
+    },
+    {
+        "Port": "Tilbury",
+        "Country": "United Kingdom",
+        "Abbreviation": "GB"
+    },
+    {
+        "Port": "Torquay",
+        "Country": "United Kingdom",
+        "Abbreviation": "GB"
+    },
+    {
+        "Port": "Vado Ligure",
+        "Country": "Italy",
+        "Abbreviation": "IT"
+    },
+    {
+        "Port": "Valencia",
+        "Country": "Spain",
+        "Abbreviation": "ES"
+    },
+    {
+        "Port": "Velsen",
+        "Country": "Netherlands",
+        "Abbreviation": "NL"
+    },
+    {
+        "Port": "Vigo",
+        "Country": "Spain",
+        "Abbreviation": "ES"
+    },
+    {
+        "Port": "Vlissingen",
+        "Country": "Netherlands",
+        "Abbreviation": "NL"
+    },
+    {
+        "Port": "Waterford",
+        "Country": "Ireland",
+        "Abbreviation": "IE"
+    },
+    {
+        "Port": "Weymouth",
+        "Country": "United Kingdom",
+        "Abbreviation": "GB"
+    },
+    {
+        "Port": "Whiffen Head",
+        "Country": "Canada",
+        "Abbreviation": "CA"
+    },
+    {
+        "Port": "Yanbu Industrial",
+        "Country": "Saudi Arabia",
+        "Abbreviation": "SA"
+    },
+    {
+        "Port": "Yantian",
+        "Country": "China",
+        "Abbreviation": "CN"
+    },
+    {
+        "Port": "Yarmouth",
+        "Country": "United Kingdom",
+        "Abbreviation": "GB"
+    },
+    {
+        "Port": "Zeebrugge",
+        "Country": "Belgium",
+        "Abbreviation": "BE"
+    },
+    {
+        "Port": "Zeeland Refinery",
+        "Country": "Netherlands",
+        "Abbreviation": "NL"
+    }
+]

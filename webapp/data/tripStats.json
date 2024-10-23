@@ -1,0 +1,34 @@
+[
+    {
+        "@unid": "",
+        "@noteid": -2147483640,
+        "@index": "1.1",
+        "@etag": "",
+        "FormMod": "Spots",
+        "Tot": "86.0"
+    },
+    {
+        "@unid": "",
+        "@noteid": -2147483636,
+        "@index": "1.2",
+        "@etag": "",
+        "FormMod": "New Ships",
+        "Tot": "29.0"
+    },
+    {
+        "@unid": "",
+        "@noteid": -2147483632,
+        "@index": "1.3",
+        "@etag": "",
+        "FormMod": "New Ports",
+        "Tot": "13.0"
+    },
+    {
+        "@unid": "",
+        "@noteid": -2147483628,
+        "@index": "1.4",
+        "@etag": "",
+        "FormMod": "New Countries",
+        "Tot": "2.0"
+    }
+]

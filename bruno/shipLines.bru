@@ -1,0 +1,15 @@
+meta {
+  name: shipLines
+  type: http
+  seq: 6
+}
+
+get {
+  url: {{baseUrl}}/lists/vwShipsByLine?dataSource={{scope}}&scope=categories&meta=false
+  body: none
+  auth: bearer
+}
+
+auth:bearer {
+  token: {{token}}
+}

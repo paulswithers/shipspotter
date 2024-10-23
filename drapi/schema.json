@@ -1,0 +1,1526 @@
+{
+  "apiName": "NONE",
+  "nsfPath": "shipspotter.nsf",
+  "iconName": "binoculars",
+  "icon": "PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiPz4NCjxzdmcgdmVyc2lvbj0iMS4xIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB4PSIwcHgiIHk9IjBweCIgdmlld0JveD0iMCAwIDUxMiA1MTIiIHN0eWxlPSJlbmFibGUtYmFja2dyb3VuZDpuZXcgMCAwIDUxMiA1MTI7IiB4bWw6c3BhY2U9InByZXNlcnZlIj4NCjxyZWN0IHg9IjMyNi42MjEiIHk9IjUyLjk2NiIgc3R5bGU9ImZpbGw6IzE0NkFBODsiIHdpZHRoPSI5Ny4xMDMiIGhlaWdodD0iNzkuNDQ4Ii8+DQo8cG9seWdvbiBzdHlsZT0iZmlsbDojREU0QzNDOyIgcG9pbnRzPSIzMDguOTY2LDAgMzI2LjYyMSw1Mi45NjYgNDIzLjcyNCw1Mi45NjYgNDQxLjM3OSwwICIgLz4NCjxyZWN0IHg9IjE4NS4zNzkiIHk9IjE5NC4yMDciIHN0eWxlPSJmaWxsOiNGREI2MkY7IiB3aWR0aD0iMTQxLjI0MSIgaGVpZ2h0PSI3MC42MjEiIC8+DQo8cmVjdCB4PSIyMjAuNjkiIHk9IjMyNi42MjEiIHN0eWxlPSJmaWxsOiNGREI2MkY7IiB3aWR0aD0iNzAuNjIxIiBoZWlnaHQ9IjM1LjMxIiAvPg0KPHJlY3QgeD0iMjIwLjY5IiB5PSI5Ny4xMDMiIHN0eWxlPSJmaWxsOiNGREI2MkY7IiB3aWR0aD0iNzAuNjIxIiBoZWlnaHQ9IjM1LjMxIiAvPg0KPHJlY3QgeD0iODguMjc2IiB5PSI1Mi45NjYiIHN0eWxlPSJmaWxsOiMxNDZBQTg7IiB3aWR0aD0iOTcuMTAzIiBoZWlnaHQ9Ijc5LjQ0OCIvPg0KPHJlY3QgeD0iMTUwLjA2OSIgeT0iNTIuOTY2IiBzdHlsZT0iZmlsbDojMTI2MDk5OyIgd2lkdGg9IjM1LjMxIiBoZWlnaHQ9Ijc5LjQ0OCIvPg0KPHBvbHlnb24gc3R5bGU9ImZpbGw6I0RFNEMzQzsiIHBvaW50cz0iNzAuNjIxLDAgODguMjc2LDUyLjk2NiAxODUuMzc5LDUyLjk2NiAyMDMuMDM0LDAgIi8+DQo8cG9seWdvbiBzdHlsZT0iZmlsbDojQ0Y0NzM3OyIgcG9pbnRzPSIxNjcuNzI0LDAgMTUwLjA2OSw1Mi45NjYgMTg1LjM3OSw1Mi45NjYgMjAzLjAzNCwwICIvPg0KPHJlY3QgeD0iMzg4LjQxNCIgeT0iNTIuOTY2IiBzdHlsZT0iZmlsbDojMTI2MDk5OyIgd2lkdGg9IjM1LjMxIiBoZWlnaHQ9Ijc5LjQ0OCIvPg0KPHBvbHlnb24gc3R5bGU9ImZpbGw6I0NGNDczNzsiIHBvaW50cz0iNDA2LjA2OSwwIDM4OC40MTQsNTIuOTY2IDQyMy43MjQsNTIuOTY2IDQ0MS4zNzksMCAiLz4NCjxwb2x5Z29uIHN0eWxlPSJmaWxsOiM0Mzk4RDE7IiBwb2ludHM9IjI1NiwzMjYuNjIxIDguODI4LDMyNi42MjEgMzUuMzEsMTMyLjQxNCAyNTYsMTMyLjQxNCAyNTYsMTk0LjIwNyAxNTAuMDY5LDE5NC4yMDcgMTUwLjA2OSwyNjQuODI4IDI1NiwyNjQuODI4ICIgLz4NCjxyZWN0IHg9IjI0Ny4xNzIiIHk9IjIyMC42OSIgc3R5bGU9ImZpbGw6I0ZBOTYyQTsiIHdpZHRoPSIxNy42NTUiIGhlaWdodD0iMTcuNjU1IiAvPg0KPHJlY3QgeD0iMjExLjg2MiIgeT0iMjIwLjY5IiBzdHlsZT0iZmlsbDojRkE5NjJBOyIgd2lkdGg9IjE3LjY1NSIgaGVpZ2h0PSIxNy42NTUiIC8+DQo8cmVjdCB4PSIyODIuNDgzIiB5PSIyMjAuNjkiIHN0eWxlPSJmaWxsOiNGQTk2MkE7IiB3aWR0aD0iMTcuNjU1IiBoZWlnaHQ9IjE3LjY1NSIgLz4NCjxwb2x5Z29uIHN0eWxlPSJmaWxsOiMxNDZBQTg7IiBwb2ludHM9IjM1LjMxLDMyNi42MjEgOC44MjgsNDU5LjAzNCAxODUuMzc5LDQ1OS4wMzQgMTU4Ljg5NywzMjYuNjIxICIvPg0KPHJlY3QgeD0iOC44MjgiIHk9IjQ1OS4wMzQiIHN0eWxlPSJmaWxsOiNERTRDM0M7IiB3aWR0aD0iMTc2LjU1MiIgaGVpZ2h0PSI1Mi45NjYiLz4NCjxwb2x5Z29uIHN0eWxlPSJmaWxsOiMxNDZBQTg7IiBwb2ludHM9IjM1My4xMDMsMzI2LjYyMSAzMjYuNjIxLDQ1OS4wMzQgNTAzLjE3Miw0NTkuMDM0IDQ3Ni42OSwzMjYuNjIxICIvPg0KPHBvbHlnb24gc3R5bGU9ImZpbGw6IzEyNjA5OTsiIHBvaW50cz0iNDc2LjY5LDMyNi42MjEgNDIzLjcyNCwzMjYuNjIxIDQ1MC4yMDcsNDU5LjAzNCA1MDMuMTcyLDQ1OS4wMzQgIi8+DQo8cmVjdCB4PSIzMjYuNjIxIiB5PSI0NTkuMDM0IiBzdHlsZT0iZmlsbDojREU0QzNDOyIgd2lkdGg9IjE3Ni41NTIiIGhlaWdodD0iNTIuOTY2Ii8+DQo8cG9seWdvbiBzdHlsZT0iZmlsbDojM0U4Q0M3OyIgcG9pbnRzPSIyNTYsMzI2LjYyMSA1MDMuMTcyLDMyNi42MjEgNDc2LjY5LDEzMi40MTQgMjU2LDEzMi40MTQgMjU2LDE5NC4yMDcgMzUzLjEwMywxOTQuMjA3IDM1My4xMDMsMjY0LjgyOCAyNTYsMjY0LjgyOCAiIC8+DQo8cG9seWdvbiBzdHlsZT0iZmlsbDojMTI2MDk5OyIgcG9pbnRzPSI4OC4yNzYsMTg1LjM3OSAyOC4wODksMTg1LjM3OSAyNS42NzksMjAzLjAzNCA4OC4yNzYsMjAzLjAzNCAiIC8+DQo8cG9seWdvbiBzdHlsZT0iZmlsbDojMTI2MDk5OyIgcG9pbnRzPSI4OC4yNzYsMjU2IDE4LjQ1OCwyNTYgMTYuMDQ5LDI3My42NTUgODguMjc2LDI3My42NTUgIiAvPg0KPHBvbHlnb24gc3R5bGU9ImZpbGw6IzEyNjA5OTsiIHBvaW50cz0iODguMjc2LDIyMC42OSAyMy4yNywyMjAuNjkgMjAuODY4LDIzOC4zNDUgODguMjc2LDIzOC4zNDUgIiAvPg0KPHBvbHlnb24gc3R5bGU9ImZpbGw6IzEyNjA5OTsiIHBvaW50cz0iNDgzLjkxMSwxODUuMzc5IDQyMy43MjQsMTg1LjM3OSA0MjMuNzI0LDIwMy4wMzQgNDg2LjMyMSwyMDMuMDM0ICIgLz4NCjxwb2x5Z29uIHN0eWxlPSJmaWxsOiMxMjYwOTk7IiBwb2ludHM9IjQ5My41NDIsMjU2IDQyMy43MjQsMjU2IDQyMy43MjQsMjczLjY1NSA0OTUuOTUxLDI3My42NTUgIiAvPg0KPHBvbHlnb24gc3R5bGU9ImZpbGw6IzEyNjA5OTsiIHBvaW50cz0iNDg4LjczLDIyMC42OSA0MjMuNzI0LDIyMC42OSA0MjMuNzI0LDIzOC4zNDUgNDkxLjEzMiwyMzguMzQ1ICIgLz4NCjxyZWN0IHg9IjQ1MC4yMDciIHk9IjQ1OS4wMzQiIHN0eWxlPSJmaWxsOiNDRjQ3Mzc7IiB3aWR0aD0iNTIuOTY2IiBoZWlnaHQ9IjUyLjk2NiIvPg0KPHBvbHlnb24gc3R5bGU9ImZpbGw6IzEyNjA5OTsiIHBvaW50cz0iMTU4Ljg5NywzMjYuNjIxIDEwNS45MzEsMzI2LjYyMSAxMzIuNDE0LDQ1OS4wMzQgMTg1LjM3OSw0NTkuMDM0ICIvPg0KPHJlY3QgeD0iMTMyLjQxNCIgeT0iNDU5LjAzNCIgc3R5bGU9ImZpbGw6I0NGNDczNzsiIHdpZHRoPSI1Mi45NjYiIGhlaWdodD0iNTIuOTY2Ii8+DQo8L3N2Zz4NCg==",
+  "description": "Ship Spotter",
+  "formulaEngine": "domino",
+  "schemaName": "shipspotter",
+  "requireRevisionToUpdate": false,
+  "allowDecryption": false,
+  "dqlAccess": true,
+  "dqlFormula": {
+    "formulaType": "domino",
+    "formula": "@True"
+  },
+  "allowCode": false,
+  "openAccess": true,
+  "maximumAccessLevel": "Editor",
+  "forms": [
+    {
+      "formName": "Admin_Country",
+      "alias": [],
+      "formModes": [
+        {
+          "modeName": "default",
+          "validationRules": [],
+          "readAccessFormula": {
+            "formulaType": "domino",
+            "formula": "@True"
+          },
+          "writeAccessFormula": {
+            "formulaType": "domino",
+            "formula": "@True"
+          },
+          "deleteAccessFormula": {
+            "formulaType": "domino",
+            "formula": "@False"
+          },
+          "onLoad": {
+            "formulaType": "domino",
+            "formula": ""
+          },
+          "onSave": {
+            "formulaType": "domino",
+            "formula": ""
+          },
+          "computeWithForm": false,
+          "sign": false,
+          "required": [
+            "Abbreviation",
+            "Country"
+          ],
+          "fields": [
+            {
+              "name": "Abbreviation",
+              "externalName": "Abbreviation",
+              "fieldAccess": "RW",
+              "itemFlags": [
+                "SUMMARY"
+              ],
+              "summaryField": true,
+              "protectedField": false,
+              "encryptedField": false,
+              "format": "string",
+              "type": "string"
+            },
+            {
+              "name": "Country",
+              "externalName": "Country",
+              "fieldAccess": "RW",
+              "itemFlags": [
+                "SUMMARY"
+              ],
+              "summaryField": true,
+              "protectedField": false,
+              "encryptedField": false,
+              "format": "string",
+              "type": "string"
+            }
+          ],
+          "readAccessFields": [
+            {
+              "name": "Abbreviation",
+              "externalName": "Abbreviation",
+              "fieldAccess": "RW",
+              "itemFlags": [
+                "SUMMARY"
+              ],
+              "summaryField": true,
+              "protectedField": false,
+              "encryptedField": false,
+              "format": "string",
+              "type": "string"
+            },
+            {
+              "name": "Country",
+              "externalName": "Country",
+              "fieldAccess": "RW",
+              "itemFlags": [
+                "SUMMARY"
+              ],
+              "summaryField": true,
+              "protectedField": false,
+              "encryptedField": false,
+              "format": "string",
+              "type": "string"
+            }
+          ],
+          "writeAccessFields": [
+            {
+              "name": "Abbreviation",
+              "externalName": "Abbreviation",
+              "fieldAccess": "RW",
+              "itemFlags": [
+                "SUMMARY"
+              ],
+              "summaryField": true,
+              "protectedField": false,
+              "encryptedField": false,
+              "format": "string",
+              "type": "string"
+            },
+            {
+              "name": "Country",
+              "externalName": "Country",
+              "fieldAccess": "RW",
+              "itemFlags": [
+                "SUMMARY"
+              ],
+              "summaryField": true,
+              "protectedField": false,
+              "encryptedField": false,
+              "format": "string",
+              "type": "string"
+            }
+          ]
+        }
+      ],
+      "formValue": "Admin_Country"
+    },
+    {
+      "formName": "Admin_Port",
+      "alias": [],
+      "formModes": [
+        {
+          "modeName": "default",
+          "validationRules": [],
+          "readAccessFormula": {
+            "formulaType": "domino",
+            "formula": "@True"
+          },
+          "writeAccessFormula": {
+            "formulaType": "domino",
+            "formula": "@True"
+          },
+          "deleteAccessFormula": {
+            "formulaType": "domino",
+            "formula": "@False"
+          },
+          "onLoad": {
+            "formulaType": "domino",
+            "formula": ""
+          },
+          "onSave": {
+            "formulaType": "domino",
+            "formula": "@SetField(\"Abbreviation\"; @DbLookup(\"\":\"NoCache\"; \"\"; \"Admin\\\\Countries\"; Country; 2; [FailSilent]))"
+          },
+          "computeWithForm": false,
+          "sign": false,
+          "required": [
+            "Port",
+            "Country"
+          ],
+          "fields": [
+            {
+              "name": "Country",
+              "externalName": "Country",
+              "fieldAccess": "RW",
+              "itemFlags": [
+                "SUMMARY"
+              ],
+              "summaryField": true,
+              "protectedField": false,
+              "encryptedField": false,
+              "format": "string",
+              "type": "string"
+            },
+            {
+              "name": "Port",
+              "externalName": "Port",
+              "fieldAccess": "RW",
+              "itemFlags": [
+                "SUMMARY"
+              ],
+              "summaryField": true,
+              "protectedField": false,
+              "encryptedField": false,
+              "format": "string",
+              "type": "string"
+            }
+          ],
+          "readAccessFields": [
+            {
+              "name": "Country",
+              "externalName": "Country",
+              "fieldAccess": "RW",
+              "itemFlags": [
+                "SUMMARY"
+              ],
+              "summaryField": true,
+              "protectedField": false,
+              "encryptedField": false,
+              "format": "string",
+              "type": "string"
+            },
+            {
+              "name": "Port",
+              "externalName": "Port",
+              "fieldAccess": "RW",
+              "itemFlags": [
+                "SUMMARY"
+              ],
+              "summaryField": true,
+              "protectedField": false,
+              "encryptedField": false,
+              "format": "string",
+              "type": "string"
+            }
+          ],
+          "writeAccessFields": [
+            {
+              "name": "Country",
+              "externalName": "Country",
+              "fieldAccess": "RW",
+              "itemFlags": [
+                "SUMMARY"
+              ],
+              "summaryField": true,
+              "protectedField": false,
+              "encryptedField": false,
+              "format": "string",
+              "type": "string"
+            },
+            {
+              "name": "Port",
+              "externalName": "Port",
+              "fieldAccess": "RW",
+              "itemFlags": [
+                "SUMMARY"
+              ],
+              "summaryField": true,
+              "protectedField": false,
+              "encryptedField": false,
+              "format": "string",
+              "type": "string"
+            }
+          ]
+        }
+      ],
+      "formValue": "Admin_Port"
+    },
+    {
+      "formName": "Admin_Trip",
+      "alias": [],
+      "formModes": [
+        {
+          "modeName": "default",
+          "validationRules": [],
+          "readAccessFormula": {
+            "formulaType": "domino",
+            "formula": "@True"
+          },
+          "writeAccessFormula": {
+            "formulaType": "domino",
+            "formula": "@True"
+          },
+          "deleteAccessFormula": {
+            "formulaType": "domino",
+            "formula": "@False"
+          },
+          "onLoad": {
+            "formulaType": "domino",
+            "formula": ""
+          },
+          "onSave": {
+            "formulaType": "domino",
+            "formula": ""
+          },
+          "computeWithForm": false,
+          "sign": false,
+          "required": [],
+          "fields": [
+            {
+              "name": "Active",
+              "externalName": "Active",
+              "fieldAccess": "RW",
+              "itemFlags": [
+                "SUMMARY"
+              ],
+              "summaryField": true,
+              "protectedField": false,
+              "encryptedField": false,
+              "format": "string",
+              "type": "string"
+            },
+            {
+              "name": "EndDate",
+              "externalName": "EndDate",
+              "fieldAccess": "RW",
+              "itemFlags": [
+                "SUMMARY"
+              ],
+              "summaryField": true,
+              "protectedField": false,
+              "encryptedField": false,
+              "format": "date",
+              "type": "string"
+            },
+            {
+              "name": "StartDate",
+              "externalName": "StartDate",
+              "fieldAccess": "RW",
+              "itemFlags": [
+                "SUMMARY"
+              ],
+              "summaryField": true,
+              "protectedField": false,
+              "encryptedField": false,
+              "format": "date",
+              "type": "string"
+            },
+            {
+              "name": "TripName",
+              "externalName": "TripName",
+              "fieldAccess": "RW",
+              "itemFlags": [
+                "SUMMARY"
+              ],
+              "summaryField": true,
+              "protectedField": false,
+              "encryptedField": false,
+              "format": "string",
+              "type": "string"
+            }
+          ],
+          "readAccessFields": [
+            {
+              "name": "Active",
+              "externalName": "Active",
+              "fieldAccess": "RW",
+              "itemFlags": [
+                "SUMMARY"
+              ],
+              "summaryField": true,
+              "protectedField": false,
+              "encryptedField": false,
+              "format": "string",
+              "type": "string"
+            },
+            {
+              "name": "EndDate",
+              "externalName": "EndDate",
+              "fieldAccess": "RW",
+              "itemFlags": [
+                "SUMMARY"
+              ],
+              "summaryField": true,
+              "protectedField": false,
+              "encryptedField": false,
+              "format": "date",
+              "type": "string"
+            },
+            {
+              "name": "StartDate",
+              "externalName": "StartDate",
+              "fieldAccess": "RW",
+              "itemFlags": [
+                "SUMMARY"
+              ],
+              "summaryField": true,
+              "protectedField": false,
+              "encryptedField": false,
+              "format": "date",
+              "type": "string"
+            },
+            {
+              "name": "TripName",
+              "externalName": "TripName",
+              "fieldAccess": "RW",
+              "itemFlags": [
+                "SUMMARY"
+              ],
+              "summaryField": true,
+              "protectedField": false,
+              "encryptedField": false,
+              "format": "string",
+              "type": "string"
+            }
+          ],
+          "writeAccessFields": [
+            {
+              "name": "Active",
+              "externalName": "Active",
+              "fieldAccess": "RW",
+              "itemFlags": [
+                "SUMMARY"
+              ],
+              "summaryField": true,
+              "protectedField": false,
+              "encryptedField": false,
+              "format": "string",
+              "type": "string"
+            },
+            {
+              "name": "EndDate",
+              "externalName": "EndDate",
+              "fieldAccess": "RW",
+              "itemFlags": [
+                "SUMMARY"
+              ],
+              "summaryField": true,
+              "protectedField": false,
+              "encryptedField": false,
+              "format": "date",
+              "type": "string"
+            },
+            {
+              "name": "StartDate",
+              "externalName": "StartDate",
+              "fieldAccess": "RW",
+              "itemFlags": [
+                "SUMMARY"
+              ],
+              "summaryField": true,
+              "protectedField": false,
+              "encryptedField": false,
+              "format": "date",
+              "type": "string"
+            },
+            {
+              "name": "TripName",
+              "externalName": "TripName",
+              "fieldAccess": "RW",
+              "itemFlags": [
+                "SUMMARY"
+              ],
+              "summaryField": true,
+              "protectedField": false,
+              "encryptedField": false,
+              "format": "string",
+              "type": "string"
+            }
+          ]
+        }
+      ],
+      "formValue": "Admin_Trip"
+    },
+    {
+      "formName": "Ship",
+      "alias": [],
+      "formModes": [
+        {
+          "modeName": "default",
+          "validationRules": [
+            {
+              "formulaType": "domino",
+              "formula": "@Length(YearBuilt) = 4",
+              "message": "YearBuilt must be four digits"
+            },
+            {
+              "formulaType": "domino",
+              "formula": "!@IsError(@TextToNumber(YearBuilt))",
+              "message": "YearBuilt must be numeric"
+            },
+            {
+              "formulaType": "domino",
+              "formula": "@IsMember(@Left(YearBuilt;2); \"18\": \"19\" : \"20\")",
+              "message": "YearBuilt must be 18**, 19** or 20**"
+            }
+          ],
+          "readAccessFormula": {
+            "formulaType": "domino",
+            "formula": "@True"
+          },
+          "writeAccessFormula": {
+            "formulaType": "domino",
+            "formula": "@True"
+          },
+          "deleteAccessFormula": {
+            "formulaType": "domino",
+            "formula": "@False"
+          },
+          "onLoad": {
+            "formulaType": "domino",
+            "formula": ""
+          },
+          "onSave": {
+            "formulaType": "domino",
+            "formula": ""
+          },
+          "computeWithForm": false,
+          "sign": false,
+          "required": [
+            "Type",
+            "CallSign",
+            "Ship",
+            "Flag"
+          ],
+          "fields": [
+            {
+              "name": "CallSign",
+              "externalName": "CallSign",
+              "fieldAccess": "RW",
+              "itemFlags": [
+                "SUMMARY"
+              ],
+              "summaryField": true,
+              "protectedField": false,
+              "encryptedField": false,
+              "format": "string",
+              "type": "string"
+            },
+            {
+              "name": "Flag",
+              "externalName": "Flag",
+              "fieldAccess": "RW",
+              "itemFlags": [
+                "SUMMARY"
+              ],
+              "summaryField": true,
+              "protectedField": false,
+              "encryptedField": false,
+              "format": "string",
+              "type": "string"
+            },
+            {
+              "name": "Line",
+              "externalName": "Line",
+              "fieldAccess": "RW",
+              "itemFlags": [
+                "SUMMARY"
+              ],
+              "summaryField": true,
+              "protectedField": false,
+              "encryptedField": false,
+              "format": "string",
+              "type": "string"
+            },
+            {
+              "name": "Ship",
+              "externalName": "Ship",
+              "fieldAccess": "RW",
+              "itemFlags": [
+                "SUMMARY"
+              ],
+              "summaryField": true,
+              "protectedField": false,
+              "encryptedField": false,
+              "format": "string",
+              "type": "string"
+            },
+            {
+              "name": "Size",
+              "externalName": "Size",
+              "fieldAccess": "RW",
+              "itemFlags": [
+                "SUMMARY"
+              ],
+              "summaryField": true,
+              "protectedField": false,
+              "encryptedField": false,
+              "format": "string",
+              "type": "string"
+            },
+            {
+              "name": "Type",
+              "externalName": "Type",
+              "fieldAccess": "RW",
+              "itemFlags": [
+                "SUMMARY"
+              ],
+              "summaryField": true,
+              "protectedField": false,
+              "encryptedField": false,
+              "format": "string",
+              "type": "string"
+            },
+            {
+              "name": "YearBuilt",
+              "externalName": "YearBuilt",
+              "fieldAccess": "RW",
+              "itemFlags": [
+                "SUMMARY"
+              ],
+              "summaryField": true,
+              "protectedField": false,
+              "encryptedField": false,
+              "format": "string",
+              "type": "string"
+            }
+          ],
+          "readAccessFields": [
+            {
+              "name": "CallSign",
+              "externalName": "CallSign",
+              "fieldAccess": "RW",
+              "itemFlags": [
+                "SUMMARY"
+              ],
+              "summaryField": true,
+              "protectedField": false,
+              "encryptedField": false,
+              "format": "string",
+              "type": "string"
+            },
+            {
+              "name": "Flag",
+              "externalName": "Flag",
+              "fieldAccess": "RW",
+              "itemFlags": [
+                "SUMMARY"
+              ],
+              "summaryField": true,
+              "protectedField": false,
+              "encryptedField": false,
+              "format": "string",
+              "type": "string"
+            },
+            {
+              "name": "Line",
+              "externalName": "Line",
+              "fieldAccess": "RW",
+              "itemFlags": [
+                "SUMMARY"
+              ],
+              "summaryField": true,
+              "protectedField": false,
+              "encryptedField": false,
+              "format": "string",
+              "type": "string"
+            },
+            {
+              "name": "Ship",
+              "externalName": "Ship",
+              "fieldAccess": "RW",
+              "itemFlags": [
+                "SUMMARY"
+              ],
+              "summaryField": true,
+              "protectedField": false,
+              "encryptedField": false,
+              "format": "string",
+              "type": "string"
+            },
+            {
+              "name": "Size",
+              "externalName": "Size",
+              "fieldAccess": "RW",
+              "itemFlags": [
+                "SUMMARY"
+              ],
+              "summaryField": true,
+              "protectedField": false,
+              "encryptedField": false,
+              "format": "string",
+              "type": "string"
+            },
+            {
+              "name": "Type",
+              "externalName": "Type",
+              "fieldAccess": "RW",
+              "itemFlags": [
+                "SUMMARY"
+              ],
+              "summaryField": true,
+              "protectedField": false,
+              "encryptedField": false,
+              "format": "string",
+              "type": "string"
+            },
+            {
+              "name": "YearBuilt",
+              "externalName": "YearBuilt",
+              "fieldAccess": "RW",
+              "itemFlags": [
+                "SUMMARY"
+              ],
+              "summaryField": true,
+              "protectedField": false,
+              "encryptedField": false,
+              "format": "string",
+              "type": "string"
+            }
+          ],
+          "writeAccessFields": [
+            {
+              "name": "CallSign",
+              "externalName": "CallSign",
+              "fieldAccess": "RW",
+              "itemFlags": [
+                "SUMMARY"
+              ],
+              "summaryField": true,
+              "protectedField": false,
+              "encryptedField": false,
+              "format": "string",
+              "type": "string"
+            },
+            {
+              "name": "Flag",
+              "externalName": "Flag",
+              "fieldAccess": "RW",
+              "itemFlags": [
+                "SUMMARY"
+              ],
+              "summaryField": true,
+              "protectedField": false,
+              "encryptedField": false,
+              "format": "string",
+              "type": "string"
+            },
+            {
+              "name": "Line",
+              "externalName": "Line",
+              "fieldAccess": "RW",
+              "itemFlags": [
+                "SUMMARY"
+              ],
+              "summaryField": true,
+              "protectedField": false,
+              "encryptedField": false,
+              "format": "string",
+              "type": "string"
+            },
+            {
+              "name": "Ship",
+              "externalName": "Ship",
+              "fieldAccess": "RW",
+              "itemFlags": [
+                "SUMMARY"
+              ],
+              "summaryField": true,
+              "protectedField": false,
+              "encryptedField": false,
+              "format": "string",
+              "type": "string"
+            },
+            {
+              "name": "Size",
+              "externalName": "Size",
+              "fieldAccess": "RW",
+              "itemFlags": [
+                "SUMMARY"
+              ],
+              "summaryField": true,
+              "protectedField": false,
+              "encryptedField": false,
+              "format": "string",
+              "type": "string"
+            },
+            {
+              "name": "Type",
+              "externalName": "Type",
+              "fieldAccess": "RW",
+              "itemFlags": [
+                "SUMMARY"
+              ],
+              "summaryField": true,
+              "protectedField": false,
+              "encryptedField": false,
+              "format": "string",
+              "type": "string"
+            },
+            {
+              "name": "YearBuilt",
+              "externalName": "YearBuilt",
+              "fieldAccess": "RW",
+              "itemFlags": [
+                "SUMMARY"
+              ],
+              "summaryField": true,
+              "protectedField": false,
+              "encryptedField": false,
+              "format": "string",
+              "type": "string"
+            }
+          ]
+        },
+        {
+          "modeName": "dql",
+          "validationRules": [],
+          "readAccessFormula": {
+            "formulaType": "domino",
+            "formula": "@True"
+          },
+          "writeAccessFormula": {
+            "formulaType": "domino",
+            "formula": "@False"
+          },
+          "deleteAccessFormula": {
+            "formulaType": "domino",
+            "formula": "@False"
+          },
+          "onLoad": {
+            "formulaType": "domino",
+            "formula": ""
+          },
+          "onSave": {
+            "formulaType": "domino",
+            "formula": ""
+          },
+          "computeWithForm": false,
+          "sign": false,
+          "required": [],
+          "fields": [
+            {
+              "name": "CallSign",
+              "externalName": "CallSign",
+              "fieldAccess": "RO",
+              "itemFlags": [
+                "SUMMARY"
+              ],
+              "summaryField": true,
+              "protectedField": false,
+              "encryptedField": false,
+              "format": "string",
+              "type": "string",
+              "readOnly": true
+            },
+            {
+              "name": "Flag",
+              "externalName": "Flag",
+              "fieldAccess": "RO",
+              "itemFlags": [
+                "SUMMARY"
+              ],
+              "summaryField": true,
+              "protectedField": false,
+              "encryptedField": false,
+              "format": "string",
+              "type": "string",
+              "readOnly": true
+            },
+            {
+              "name": "Line",
+              "externalName": "Line",
+              "fieldAccess": "RO",
+              "itemFlags": [
+                "SUMMARY"
+              ],
+              "summaryField": true,
+              "protectedField": false,
+              "encryptedField": false,
+              "format": "string",
+              "type": "string",
+              "readOnly": true
+            },
+            {
+              "name": "Ship",
+              "externalName": "Ship",
+              "fieldAccess": "RO",
+              "itemFlags": [
+                "SUMMARY"
+              ],
+              "summaryField": true,
+              "protectedField": false,
+              "encryptedField": false,
+              "format": "string",
+              "type": "string",
+              "readOnly": true
+            },
+            {
+              "name": "Size",
+              "externalName": "Size",
+              "fieldAccess": "RO",
+              "itemFlags": [
+                "SUMMARY"
+              ],
+              "summaryField": true,
+              "protectedField": false,
+              "encryptedField": false,
+              "format": "string",
+              "type": "string",
+              "readOnly": true
+            },
+            {
+              "name": "Type",
+              "externalName": "Type",
+              "fieldAccess": "RO",
+              "itemFlags": [
+                "SUMMARY"
+              ],
+              "summaryField": true,
+              "protectedField": false,
+              "encryptedField": false,
+              "format": "string",
+              "type": "string",
+              "readOnly": true
+            },
+            {
+              "name": "YearBuilt",
+              "externalName": "YearBuilt",
+              "fieldAccess": "RO",
+              "itemFlags": [
+                "SUMMARY"
+              ],
+              "summaryField": true,
+              "protectedField": false,
+              "encryptedField": false,
+              "format": "string",
+              "type": "string",
+              "readOnly": true
+            }
+          ],
+          "readAccessFields": [
+            {
+              "name": "CallSign",
+              "externalName": "CallSign",
+              "fieldAccess": "RO",
+              "itemFlags": [
+                "SUMMARY"
+              ],
+              "summaryField": true,
+              "protectedField": false,
+              "encryptedField": false,
+              "format": "string",
+              "type": "string",
+              "readOnly": true
+            },
+            {
+              "name": "Flag",
+              "externalName": "Flag",
+              "fieldAccess": "RO",
+              "itemFlags": [
+                "SUMMARY"
+              ],
+              "summaryField": true,
+              "protectedField": false,
+              "encryptedField": false,
+              "format": "string",
+              "type": "string",
+              "readOnly": true
+            },
+            {
+              "name": "Line",
+              "externalName": "Line",
+              "fieldAccess": "RO",
+              "itemFlags": [
+                "SUMMARY"
+              ],
+              "summaryField": true,
+              "protectedField": false,
+              "encryptedField": false,
+              "format": "string",
+              "type": "string",
+              "readOnly": true
+            },
+            {
+              "name": "Ship",
+              "externalName": "Ship",
+              "fieldAccess": "RO",
+              "itemFlags": [
+                "SUMMARY"
+              ],
+              "summaryField": true,
+              "protectedField": false,
+              "encryptedField": false,
+              "format": "string",
+              "type": "string",
+              "readOnly": true
+            },
+            {
+              "name": "Size",
+              "externalName": "Size",
+              "fieldAccess": "RO",
+              "itemFlags": [
+                "SUMMARY"
+              ],
+              "summaryField": true,
+              "protectedField": false,
+              "encryptedField": false,
+              "format": "string",
+              "type": "string",
+              "readOnly": true
+            },
+            {
+              "name": "Type",
+              "externalName": "Type",
+              "fieldAccess": "RO",
+              "itemFlags": [
+                "SUMMARY"
+              ],
+              "summaryField": true,
+              "protectedField": false,
+              "encryptedField": false,
+              "format": "string",
+              "type": "string",
+              "readOnly": true
+            },
+            {
+              "name": "YearBuilt",
+              "externalName": "YearBuilt",
+              "fieldAccess": "RO",
+              "itemFlags": [
+                "SUMMARY"
+              ],
+              "summaryField": true,
+              "protectedField": false,
+              "encryptedField": false,
+              "format": "string",
+              "type": "string",
+              "readOnly": true
+            }
+          ],
+          "writeAccessFields": []
+        }
+      ],
+      "formValue": "Ship"
+    },
+    {
+      "formName": "Spot",
+      "alias": [],
+      "formModes": [
+        {
+          "modeName": "default",
+          "validationRules": [],
+          "readAccessFormula": {
+            "formulaType": "domino",
+            "formula": "@True"
+          },
+          "writeAccessFormula": {
+            "formulaType": "domino",
+            "formula": "@True"
+          },
+          "deleteAccessFormula": {
+            "formulaType": "domino",
+            "formula": "@False"
+          },
+          "onLoad": {
+            "formulaType": "domino",
+            "formula": ""
+          },
+          "onSave": {
+            "formulaType": "domino",
+            "formula": "@SetField(\"Created\"; @Now)"
+          },
+          "computeWithForm": false,
+          "sign": false,
+          "required": [],
+          "fields": [
+            {
+              "name": "Location",
+              "externalName": "Location",
+              "fieldAccess": "RW",
+              "itemFlags": [
+                "SUMMARY"
+              ],
+              "summaryField": true,
+              "protectedField": false,
+              "encryptedField": false,
+              "format": "string",
+              "type": "string"
+            },
+            {
+              "name": "PortFrom",
+              "externalName": "PortFrom",
+              "fieldAccess": "RW",
+              "itemFlags": [
+                "SUMMARY"
+              ],
+              "summaryField": true,
+              "protectedField": false,
+              "encryptedField": false,
+              "format": "string",
+              "type": "string"
+            },
+            {
+              "name": "PortTo",
+              "externalName": "PortTo",
+              "fieldAccess": "RW",
+              "itemFlags": [
+                "SUMMARY"
+              ],
+              "summaryField": true,
+              "protectedField": false,
+              "encryptedField": false,
+              "format": "string",
+              "type": "string"
+            },
+            {
+              "name": "ShipUNID",
+              "externalName": "ShipUNID",
+              "fieldAccess": "RW",
+              "itemFlags": [
+                "SUMMARY"
+              ],
+              "summaryField": true,
+              "protectedField": false,
+              "encryptedField": false,
+              "format": "string",
+              "type": "string"
+            },
+            {
+              "name": "tripUNID",
+              "externalName": "tripUNID",
+              "fieldGroup": "",
+              "fieldAccess": "RW",
+              "itemFlags": [
+                "SUMMARY"
+              ],
+              "summaryField": true,
+              "protectedField": false,
+              "encryptedField": false,
+              "format": "string",
+              "type": "string"
+            }
+          ],
+          "readAccessFields": [
+            {
+              "name": "Location",
+              "externalName": "Location",
+              "fieldAccess": "RW",
+              "itemFlags": [
+                "SUMMARY"
+              ],
+              "summaryField": true,
+              "protectedField": false,
+              "encryptedField": false,
+              "format": "string",
+              "type": "string"
+            },
+            {
+              "name": "PortFrom",
+              "externalName": "PortFrom",
+              "fieldAccess": "RW",
+              "itemFlags": [
+                "SUMMARY"
+              ],
+              "summaryField": true,
+              "protectedField": false,
+              "encryptedField": false,
+              "format": "string",
+              "type": "string"
+            },
+            {
+              "name": "PortTo",
+              "externalName": "PortTo",
+              "fieldAccess": "RW",
+              "itemFlags": [
+                "SUMMARY"
+              ],
+              "summaryField": true,
+              "protectedField": false,
+              "encryptedField": false,
+              "format": "string",
+              "type": "string"
+            },
+            {
+              "name": "ShipUNID",
+              "externalName": "ShipUNID",
+              "fieldAccess": "RW",
+              "itemFlags": [
+                "SUMMARY"
+              ],
+              "summaryField": true,
+              "protectedField": false,
+              "encryptedField": false,
+              "format": "string",
+              "type": "string"
+            },
+            {
+              "name": "tripUNID",
+              "externalName": "tripUNID",
+              "fieldGroup": "",
+              "fieldAccess": "RW",
+              "itemFlags": [
+                "SUMMARY"
+              ],
+              "summaryField": true,
+              "protectedField": false,
+              "encryptedField": false,
+              "format": "string",
+              "type": "string"
+            }
+          ],
+          "writeAccessFields": [
+            {
+              "name": "Location",
+              "externalName": "Location",
+              "fieldAccess": "RW",
+              "itemFlags": [
+                "SUMMARY"
+              ],
+              "summaryField": true,
+              "protectedField": false,
+              "encryptedField": false,
+              "format": "string",
+              "type": "string"
+            },
+            {
+              "name": "PortFrom",
+              "externalName": "PortFrom",
+              "fieldAccess": "RW",
+              "itemFlags": [
+                "SUMMARY"
+              ],
+              "summaryField": true,
+              "protectedField": false,
+              "encryptedField": false,
+              "format": "string",
+              "type": "string"
+            },
+            {
+              "name": "PortTo",
+              "externalName": "PortTo",
+              "fieldAccess": "RW",
+              "itemFlags": [
+                "SUMMARY"
+              ],
+              "summaryField": true,
+              "protectedField": false,
+              "encryptedField": false,
+              "format": "string",
+              "type": "string"
+            },
+            {
+              "name": "ShipUNID",
+              "externalName": "ShipUNID",
+              "fieldAccess": "RW",
+              "itemFlags": [
+                "SUMMARY"
+              ],
+              "summaryField": true,
+              "protectedField": false,
+              "encryptedField": false,
+              "format": "string",
+              "type": "string"
+            },
+            {
+              "name": "tripUNID",
+              "externalName": "tripUNID",
+              "fieldGroup": "",
+              "fieldAccess": "RW",
+              "itemFlags": [
+                "SUMMARY"
+              ],
+              "summaryField": true,
+              "protectedField": false,
+              "encryptedField": false,
+              "format": "string",
+              "type": "string"
+            }
+          ]
+        },
+        {
+          "modeName": "dql",
+          "validationRules": [],
+          "readAccessFormula": {
+            "formulaType": "domino",
+            "formula": "@True"
+          },
+          "writeAccessFormula": {
+            "formulaType": "domino",
+            "formula": "@False"
+          },
+          "deleteAccessFormula": {
+            "formulaType": "domino",
+            "formula": "@False"
+          },
+          "onLoad": {
+            "formulaType": "domino",
+            "formula": ""
+          },
+          "onSave": {
+            "formulaType": "domino",
+            "formula": "@SetField(\"Created\"; @Now);\n@SetField(\"tripUNID\"; @DbLookup(\"\":\"NoCache\"; \"\"; \"(luActiveTrip)\"; 1; [RETURNDOCUMENTUNIQUEID])"
+          },
+          "computeWithForm": false,
+          "sign": false,
+          "required": [],
+          "fields": [
+            {
+              "name": "Created",
+              "externalName": "Created",
+              "fieldAccess": "RO",
+              "itemFlags": [
+                "SUMMARY"
+              ],
+              "summaryField": true,
+              "protectedField": false,
+              "encryptedField": false,
+              "format": "date",
+              "type": "string",
+              "readOnly": true
+            },
+            {
+              "name": "Location",
+              "externalName": "Location",
+              "fieldAccess": "RO",
+              "itemFlags": [
+                "SUMMARY"
+              ],
+              "summaryField": true,
+              "protectedField": false,
+              "encryptedField": false,
+              "format": "string",
+              "type": "string",
+              "readOnly": true
+            },
+            {
+              "name": "PortFrom",
+              "externalName": "PortFrom",
+              "fieldAccess": "RO",
+              "itemFlags": [
+                "SUMMARY"
+              ],
+              "summaryField": true,
+              "protectedField": false,
+              "encryptedField": false,
+              "format": "string",
+              "type": "string",
+              "readOnly": true
+            },
+            {
+              "name": "PortTo",
+              "externalName": "PortTo",
+              "fieldAccess": "RO",
+              "itemFlags": [
+                "SUMMARY"
+              ],
+              "summaryField": true,
+              "protectedField": false,
+              "encryptedField": false,
+              "format": "string",
+              "type": "string",
+              "readOnly": true
+            },
+            {
+              "name": "ShipUNID",
+              "externalName": "ShipUNID",
+              "fieldAccess": "RO",
+              "itemFlags": [
+                "SUMMARY"
+              ],
+              "summaryField": true,
+              "protectedField": false,
+              "encryptedField": false,
+              "format": "string",
+              "type": "string",
+              "readOnly": true
+            },
+            {
+              "name": "tripUNID",
+              "externalName": "tripUNID",
+              "fieldGroup": "",
+              "fieldAccess": "RO",
+              "itemFlags": [
+                "SUMMARY"
+              ],
+              "summaryField": true,
+              "protectedField": false,
+              "encryptedField": false,
+              "format": "string",
+              "type": "string",
+              "readOnly": true
+            }
+          ],
+          "readAccessFields": [
+            {
+              "name": "Created",
+              "externalName": "Created",
+              "fieldAccess": "RO",
+              "itemFlags": [
+                "SUMMARY"
+              ],
+              "summaryField": true,
+              "protectedField": false,
+              "encryptedField": false,
+              "format": "date",
+              "type": "string",
+              "readOnly": true
+            },
+            {
+              "name": "Location",
+              "externalName": "Location",
+              "fieldAccess": "RO",
+              "itemFlags": [
+                "SUMMARY"
+              ],
+              "summaryField": true,
+              "protectedField": false,
+              "encryptedField": false,
+              "format": "string",
+              "type": "string",
+              "readOnly": true
+            },
+            {
+              "name": "PortFrom",
+              "externalName": "PortFrom",
+              "fieldAccess": "RO",
+              "itemFlags": [
+                "SUMMARY"
+              ],
+              "summaryField": true,
+              "protectedField": false,
+              "encryptedField": false,
+              "format": "string",
+              "type": "string",
+              "readOnly": true
+            },
+            {
+              "name": "PortTo",
+              "externalName": "PortTo",
+              "fieldAccess": "RO",
+              "itemFlags": [
+                "SUMMARY"
+              ],
+              "summaryField": true,
+              "protectedField": false,
+              "encryptedField": false,
+              "format": "string",
+              "type": "string",
+              "readOnly": true
+            },
+            {
+              "name": "ShipUNID",
+              "externalName": "ShipUNID",
+              "fieldAccess": "RO",
+              "itemFlags": [
+                "SUMMARY"
+              ],
+              "summaryField": true,
+              "protectedField": false,
+              "encryptedField": false,
+              "format": "string",
+              "type": "string",
+              "readOnly": true
+            },
+            {
+              "name": "tripUNID",
+              "externalName": "tripUNID",
+              "fieldGroup": "",
+              "fieldAccess": "RO",
+              "itemFlags": [
+                "SUMMARY"
+              ],
+              "summaryField": true,
+              "protectedField": false,
+              "encryptedField": false,
+              "format": "string",
+              "type": "string",
+              "readOnly": true
+            }
+          ],
+          "writeAccessFields": []
+        }
+      ],
+      "formValue": "Spot"
+    }
+  ],
+  "views": [
+    {
+      "name": "(luKeys)",
+      "alias": [],
+      "unid": "465685048C81999C8625872E0073AAE1"
+    },
+    {
+      "name": "(luShipsByCallSign)",
+      "alias": [],
+      "unid": "621651E93DC0FA4C8625873000743828",
+      "selectionFormula": "SELECT Form=\"Ship\" & MarkForDeletion != \"1\""
+    },
+    {
+      "name": "(luSpotsByShipUNID)",
+      "alias": [],
+      "unid": "23733AB576C5C7E086258751006F466B",
+      "selectionFormula": "SELECT Form=\"Spot\" & MarkForDeletion != \"1\""
+    },
+    {
+      "name": "(luTripStats)",
+      "alias": [],
+      "unid": "2B79EF858528BA9C86258A180064DA2D"
+    },
+    {
+      "name": "Admin\\Countries",
+      "alias": [
+        "vwCountries"
+      ],
+      "unid": "B3563BDEC0F25B358625872F00706560"
+    },
+    {
+      "name": "Admin\\Ports",
+      "alias": [
+        "vwPorts"
+      ],
+      "unid": "FE47DF8DA551AF108625872F00727F97"
+    },
+    {
+      "name": "Admin\\Trips",
+      "alias": [
+        "vwTrips"
+      ],
+      "unid": "11B748A68F39CB4E862589FA00663E60"
+    },
+    {
+      "name": "Ship\\By Line",
+      "alias": [
+        "vwShipsByLine"
+      ],
+      "unid": "28025357262881D8862587300074BC89",
+      "selectionFormula": "SELECT Form=\"Ship\" & Line != \"\" & MarkForDeletion != \"1\""
+    },
+    {
+      "name": "Ship\\By Ship",
+      "alias": [
+        "vwShipsByName"
+      ],
+      "unid": "EA416E860A82A9CF8625873000736C23",
+      "selectionFormula": "SELECT Form=\"Ship\" & MarkForDeletion != \"1\""
+    }
+  ],
+  "agents": [],
+  "available": true,
+  "isActive": true,
+  "prohibitRefresh": true
+}

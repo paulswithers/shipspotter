@@ -1,0 +1,25 @@
+meta {
+  name: updateDoc
+  type: http
+  seq: 9
+}
+
+put {
+  url: {{baseUrl}}/document/UNID?dataSource={{scope}}&mode=default
+  body: json
+  auth: bearer
+}
+
+headers {
+  Content-Type: application/json
+}
+
+auth:bearer {
+  token: {{token}}
+}
+
+body:json {
+  {
+    
+  }
+}

@@ -1,0 +1,25 @@
+:root {
+    --primary-color: #000;
+    --primary-color-dark: #FFF;
+    --border-color-primary: #666;
+    --border-color-primary-dark: #999;
+    --background-color: #FFF;
+    --background-color-dark: #000;
+    --active: #1f9966;
+    --active-dark: #1f9966;
+    --form-background-color: #F1F1F1;
+    --form-background-color-dark: #2E2E2E;
+    --help-color: #005C99;
+    --help-color-dark: #708DA0;
+    --message: #FFF;
+    --success-message-dark: #008800;
+    --error-message-dark: #880000;
+    --landing-tile-start: #000;
+    --landing-tile-end: #294582;
+    --landing-tile-start-dark: #fff;
+    --landing-tile-end-dark: #3b93bf;
+    --button-primary: #005C99;
+    --button-primary-dark: #708DA0;
+    --required-bg: #FFB6C1;
+    --required-bg-dark: #FFB6C1;
+}

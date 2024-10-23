@@ -1,0 +1,33 @@
+[
+    {
+        "Key": "Ship Types",
+        "Values": [
+            "Ro-Ro/Passenger Craft",
+            "Passenger Ship",
+            "High Speed Craft",
+            "Ro-Ro Cargo",
+            "General Cargo",
+            "Oil/Chemical/Gas Tanker",
+            "Shuttle Tanker",
+            "Container Ship",
+            "Vehicles Carrier",
+            "Bulk Carrier",
+            "Reefer",
+            "Hopper Dredger",
+            "Suction Dredger",
+            "Fishing Vessel",
+            "Offshore Supply Ship",
+            "Yacht / Sailing Vessel",
+            "Pleasure Craft",
+            "Work Vessel",
+            "Training Vessel",
+            "Pilot Vessel",
+            "Tug / Port Tender",
+            "Law Enforce",
+            "SAR",
+            "Military",
+            "Fire Fighting Vessel",
+            "Research"
+        ]
+    }
+]

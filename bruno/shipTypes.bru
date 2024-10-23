@@ -1,0 +1,21 @@
+meta {
+  name: shipTypes
+  type: http
+  seq: 5
+}
+
+get {
+  url: {{baseUrl}}/lists/%28luKeys%29?dataSource={{scope}}&key=Ship Types&meta=false
+  body: none
+  auth: bearer
+}
+
+params:query {
+  dataSource: {{scope}}
+  key: Ship Types
+  meta: false
+}
+
+auth:bearer {
+  token: {{token}}
+}

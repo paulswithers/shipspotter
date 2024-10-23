@@ -1,0 +1,15 @@
+meta {
+  name: ships
+  type: http
+  seq: 7
+}
+
+get {
+  url: {{baseUrl}}/lists/vwShipsByName?dataSource={{scope}}&documents=true
+  body: none
+  auth: bearer
+}
+
+auth:bearer {
+  token: {{token}}
+}

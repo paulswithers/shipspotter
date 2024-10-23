@@ -1,0 +1,20 @@
+meta {
+  name: ports
+  type: http
+  seq: 4
+}
+
+get {
+  url: {{baseUrl}}/lists/vwPorts?dataSource={{scope}}&meta=false
+  body: none
+  auth: bearer
+}
+
+params:query {
+  dataSource: {{scope}}
+  meta: false
+}
+
+auth:bearer {
+  token: {{token}}
+}

@@ -1,0 +1,20 @@
+meta {
+  name: countries
+  type: http
+  seq: 3
+}
+
+get {
+  url: {{baseUrl}}/lists/vwCountries?dataSource={{scope}}&meta=false
+  body: none
+  auth: bearer
+}
+
+params:query {
+  dataSource: {{scope}}
+  meta: false
+}
+
+auth:bearer {
+  token: {{token}}
+}

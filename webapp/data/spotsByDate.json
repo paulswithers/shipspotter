@@ -1,0 +1,56 @@
+[
+    {
+        "Created": "2024-07-07T02:13:14-06:00",
+        "Location": "Caravan",
+        "PortFrom": "Ijmuiden",
+        "PortTo": "Fawley",
+        "ShipUNID": "AC5E4130F412437E862589BD0044FA80",
+        "tripUNID": "c39026448caddf5a86258b52002c5096",
+        "Form": "Spot"
+    },
+    {
+        "Created": "2024-07-07T03:04:23-06:00",
+        "Location": "Caravan",
+        "PortFrom": "Southampton",
+        "PortTo": "Cork",
+        "ShipUNID": "4DB4659C41FC49DD86258B3E004676D8",
+        "tripUNID": "c39026448caddf5a86258b52002c5096",
+        "Form": "Spot"
+    },
+    {
+        "Created": "2024-07-07T08:29:24-06:00",
+        "Location": "Cowes",
+        "PortFrom": "Southampton",
+        "PortTo": "",
+        "ShipUNID": "E871732A1418A97D862589E0004D3943",
+        "tripUNID": "c39026448caddf5a86258b52002c5096",
+        "Form": "Spot"
+    },
+    {
+        "Created": "2024-07-07T08:31:06-06:00",
+        "Location": "Cowes",
+        "PortFrom": "Cowes",
+        "PortTo": "",
+        "ShipUNID": "155102B5D86DBC7186258AF9003FAA95",
+        "tripUNID": "c39026448caddf5a86258b52002c5096",
+        "Form": "Spot"
+    },
+    {
+        "Created": "2024-07-07T08:52:42-06:00",
+        "Location": "Solent",
+        "PortFrom": "Southampton",
+        "PortTo": "Southampton",
+        "ShipUNID": "9E0E92E3D273BCCB8625885600513D37",
+        "tripUNID": "c39026448caddf5a86258b52002c5096",
+        "Form": "Spot"
+    },
+    {
+        "Created": "2024-07-07T09:18:50-06:00",
+        "Location": "Solent",
+        "PortFrom": "Hamble",
+        "PortTo": "Southampton",
+        "ShipUNID": "891E230CACB366BB8625875100700B35",
+        "tripUNID": "c39026448caddf5a86258b52002c5096",
+        "Form": "Spot"
+    }
+]

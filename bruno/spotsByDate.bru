@@ -1,0 +1,40 @@
+meta {
+  name: spotsByDate
+  type: http
+  seq: 13
+}
+
+post {
+  url: {{baseUrl}}/query?dataSource={{scope}}&action=execute
+  body: json
+  auth: bearer
+}
+
+params:query {
+  dataSource: {{scope}}
+  action: execute
+}
+
+headers {
+  Content-Type: application/json
+}
+
+auth:bearer {
+  token: {{token}}
+}
+
+body:json {
+  {
+    "forms": [
+      "Spot"
+    ],
+    "includeFormAlias": true,
+    "maxScanDocs": 500000,
+    "maxScanEntries": 200000,
+    "mode": "dql",
+    "noViews": false,
+    "query": "@Created >= @dt('2024-07-06') and @Created <= @dt('2024-07-08')",
+    "timeoutSecs": 300,
+    "viewRefresh": true
+  }
+}

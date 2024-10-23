@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Ship Spotter</title>
+        <link rel="icon" href="img/KeepNewIcon.png"/>
+        <link rel="apple-touch-icon" href="img/KeepNewIcon.png"/>
+        <link rel="stylesheet" href="style.css" />
+        <link rel="stylesheet" href="blue-theme.css" />
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+        <script type="module" src="index.js" charset="utf-8"></script>
+    </head>
+    
+    <body>
+        <div class="container">
+            <section id="status-message">
+                <div disabled id="message"></div>
+            </section>
+            <header id="header">
+                <span id="themeToggle" style="float:right" class="material-icons material-button md-32"
+                title="Toggle Mode" role="img" aria-label="toggle mode"></span>
+                <h1>Ship Spotter</h1>
+            </header>
+            <main>
+                <!-- Login form -->
+                <section id="credentials">
+                    <form id="credentials-form" class="login-form">
+                        <p>
+                            <input type="text" id="username-input" placeholder="User Name"
+                            aria-label="User Name" autofocus />
+                        </p>
+                        <p>
+                            <input type="password" id="password-input" placeholder="Password"
+                            aria-label="Password" />
+                            <button id="login-btn" aria-label="Login" type="button" class="btn-primary">Login</button>
+                        </p>
+                    </form>
+                </section>
+                <!-- Landing page -->
+                <section class="landing" id="landing">
+                    
+                </section>
+                <section class="new-spot" id="new-spot">
+                    <div class="actionDiv">
+                        <span id="spot-search-action" class="material-icons material-button md-32" title="Search"
+                        role="img" aria-label="Search" style="float:right">search</span>
+                        <span id="spot-action" class="material-icons material-button md-32" title=""
+                        role="img" aria-label="" style="float:right"></span>
+                        <span id="spot-country-action" class="material-symbols-outlined material-button md-32" title="Country"
+                        role="img" aria-label="Country" style="float:right">flag_2</span>
+                        <span id="spot-port-action" class="material-symbols-outlined material-button md-32" title="Port"
+                        role="img" aria-label="Port" style="float:right">anchor</span>
+                        <span id="spot-ship-search-clear" class="material-symbols-outlined material-button md-32" title="Reset"
+                        role="img" aria-label="Reset" style="float:right">restart_alt</span>
+                        <span id="spot-back" class="material-icons material-button md-32" title="Back"
+                        role="img" aria-label="Back" style="float:right">arrow_back</span>
+                        <h1>Spot</h1>
+                    </div>
+                    <form id="ship-spot-ship-form">
+                        <spot-elem actionbutton="Save" searchid="#spot-search-action" actionid="#spot-action" 
+                        class="grid-container" prefix="spot-" showspots="false"></spot-elem>
+                    </form>
+                </section>
+                <section class="spot-search" id="spot-search">
+                    <div class="actionDiv">
+                        <span id="spot-search-back" class="material-icons material-button md-32" title="Back"
+                        role="img" aria-label="Back" style="float:right">arrow_back</span>
+                    </div>
+                    <h1>Find Spot</h1>
+                    <ship-spots-elem></ship-spots-elem>
+                </section>
+                <section class="ship" id="ship-search">
+                    <div class="actionDiv">
+                        <span id="ship-search-action" class="material-icons material-button md-32" title=""
+                        role="img" aria-label="" style="float:right"></span>
+                        <span id="ship-country-action" class="material-symbols-outlined material-button md-32" title="Country"
+                        role="img" aria-label="Country" style="float:right">flag_2</span>
+                        <span id="ship-search-clear" class="material-symbols-outlined material-button md-32" title="Reset"
+                        role="img" aria-label="Reset" style="float:right">restart_alt</span>
+                        <span id="ship-search-back" class="material-icons material-button md-32" title="Back"
+                        role="img" aria-label="Back" style="float:right">arrow_back</span>
+                        <h1>Find Ship</h1>
+                    </div>
+                    <form id="search-ship-form">
+                        <ship-elem search="true" showspots="true" actionbutton="Search" actionid="#ship-search-action"
+                            class="grid-container"></ship-elem>
+                    </form>
+                </section>
+                <section class="trips" id="trips">
+                    <div class="actionDiv">
+                        <span id="add-trip" class="material-symbols-outlined material-button md-32" title="Add Trip"
+                        role="img" aria-label="Add Trip" style="float:right">add</span>
+                        <span id="trip-back" class="material-icons material-button md-32" title="Back"
+                        role="img" aria-label="Back" style="float:right">arrow_back</span>
+                    </div>
+                    <trips-elem addbutton="add-trip"></trips-elem>
+                </section>
+            </main>
+            <footer id="bottomlinks">
+                <span>&copy; Paul Withers 2024</span>
+            </footer>
+        </div>
+    </body>
+</html>

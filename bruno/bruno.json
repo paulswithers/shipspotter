@@ -1,0 +1,13 @@
+{
+  "version": "1",
+  "name": "ShipSpotter",
+  "type": "collection",
+  "ignore": [
+    "node_modules",
+    ".git"
+  ],
+  "presets": {
+    "requestType": "http",
+    "requestUrl": "https://YOUR_DOMINO_SERVER/api/v1"
+  }
+}
